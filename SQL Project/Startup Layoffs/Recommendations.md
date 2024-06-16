@@ -1,29 +1,26 @@
-#Startup Layoff
+# Startup Layoffs
 
-##About
-	This project aims to explore insights into layoffs data from 3,626 entries, focusing on total layoffs, percentage laid off, and funds raised. The data source comes from
-Kaggle, with information available from the declaration of COVID-19 as a pandemic on March 11, 2020, to May 30, 2024. The dataset includes startup layoffs reported on
-Layoffs.fyi since COVID-19.
+## About
 
-	Conducting comprehensive data cleaning using MySQL involved identifying and removing duplicates, standardizing data, correcting errors, addressing null
-values, and eliminating unnecessary columns and rows. New tables were created to streamline the dataset and ensure consistency and accuracy for analysis.
-Exploratory Data Analysis (EDA) was performed to explore the dataset, identify trends, uncover patterns, and analyze key metrics such as total layoffs, percentage laid
-off, and funds raised. Advanced SQL queries were executed to determine companies with the highest layoffs by year, calculate rolling totals of layoffs per month, and
-group and summarize data by various dimensions, including company, location, industry, stage, and country.
+This project aims to explore insights into layoffs data from 3,626 entries, focusing on total layoffs, percentage laid off, and funds raised. The data source comes from Kaggle, with information available from the declaration of COVID-19 as a pandemic on March 11, 2020, to May 30, 2024. The dataset includes startup layoffs reported on Layoffs.fyi since COVID-19.
+
+Conducting comprehensive data cleaning using MySQL involved identifying and removing duplicates, standardizing data, correcting errors, addressing null values, and eliminating unnecessary columns and rows. New tables were created to streamline the dataset and ensure consistency and accuracy for analysis.
+Exploratory Data Analysis (EDA) was performed to explore the dataset, identify trends, uncover patterns, and analyze key metrics such as total layoffs, percentage laid off, and funds raised. Advanced SQL queries were executed to determine companies with the highest layoffs by year, calculate rolling totals of layoffs per month, and group and summarize data by various dimensions, including company, location, industry, stage, and country.
 
 ## Step by Step
 1. **Data Wrangling**
   - Build a database.
   - Create table and insert the data.
   - Data Cleaning:
-	- 1. Remove Duplicates
-	- 2. Standarize Data
-	- 3. Null/Blank Values
-	- 4. Remove any Columns
+	 1. Remove Duplicates
+	 2. Standarize Data
+	 3. Null/Blank Values
+	 4. Remove any Columns
 2. **Exploratory Data Analysis (EDA)**
 
 
 ## Recommendations
+
 1. Geographical Economic Support
 Recommendation: Regions with high layoff counts should receive targeted economic support and job creation initiatives to counteract the impact of these layoffs.
 
